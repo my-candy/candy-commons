@@ -113,4 +113,17 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>quanjj-macdeMacBook-Pro.local-releases</name>
+			<url>http://127.0.0.1:8081/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>quanjj-macdeMacBook-Pro.local-snapshots</name>
+			<url>http://127.0.0.1:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>
