@@ -1,4 +1,6 @@
-package com.candy.commons.sequence;
+package com.candy.commons.sequence.db;
+
+import com.candy.commons.sequence.Sequence;
 
 import java.util.Map;
 

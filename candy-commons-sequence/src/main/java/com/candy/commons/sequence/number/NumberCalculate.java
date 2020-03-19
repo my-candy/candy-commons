@@ -19,7 +19,7 @@ public class NumberCalculate {
 			HEX_CHAR_MAP.put(HEX_CHAR_ARR[i]+"_T", i);
 		}
 	}
-	
+
 	/**
 	 * 十进制转换任意进制
 	 *
@@ -44,6 +44,7 @@ public class NumberCalculate {
 		}
 		return newValue;
 	}
+	
 	
 	/**
 	 * 十进制转换任意进制
@@ -71,14 +72,17 @@ public class NumberCalculate {
 	}
 	
 	public static void main(String[] args) {
+//		for (int i = 0; i < 100; i++) {
+//			System.out.println(ten2N(i+"", 36));
+//		}
 		System.out.println(NumberCalculate.n2ten("F", 36));
-		System.out.println(NumberCalculate.ten2N("66", 2));
+		System.out.println(NumberCalculate.ten2N("10000", 8));
 		
-		System.out.println(Integer.valueOf("776",8));
 	}
 
 	/**
 	 * 任意进制转换10进制
+	 * 
 	 * @param value
 	 * @param hexNum
 	 * @return
@@ -117,6 +121,6 @@ public class NumberCalculate {
 			sb.append(KeyString.charAt((int) Math.round(Math.random() * (len - 1))));
 		}
 		return sb.toString();
-	}	
+	}
 
 }

@@ -1,9 +1,10 @@
-package com.candy.commons.sequence;
+package com.candy.commons.sequence.db;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.candy.commons.sequence.Sequence;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.jdbc.core.JdbcTemplate;

@@ -1,14 +1,14 @@
-package com.candy.commons.sequence;
+package com.candy.commons.sequence.db;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.candy.commons.sequence.Sequence;
+import com.candy.commons.sequence.number.NumberCalculate;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import com.candy.commons.sequence.number.NumberCalculate;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class CharSequence implements Sequence {
 	private static final Log log = LogFactory.getLog(DefaultSequence.class);

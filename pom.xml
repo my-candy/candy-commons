@@ -8,23 +8,19 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.8.RELEASE</version>
-		<relativePath />
-		<!-- lookup parent from repository -->
+		<version>2.2.5.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
+
 	<modules>
 		<module>candy-commons-core</module>
-		<module>candy-commons-codec</module>
-		<module>candy-commons-file</module>
-		<module>candy-commons-page</module>
 		<module>candy-commons-sequence</module>
-		<module>candy-commons-json</module>
-		<module>candy-commons-mvc</module>
 	</modules>
 
 	<dependencyManagement>
